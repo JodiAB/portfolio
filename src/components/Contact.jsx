@@ -77,6 +77,9 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubbText}>Email: jodiabrahams9@gmail.com</p>
+        <p className={styles.sectionSubbText}>Contact: 0782096121</p>
+        <p className={styles.sectionSubbText}>Where i reside: Kuils River, Cape Town, South Africa</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form

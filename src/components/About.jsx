@@ -47,6 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
+        <img src="https://iili.io/JYHyiL7.md.jpg" alt="description"   className="float-right mr-30 mt-2" 
+    style={{ width: '9rem', height: '17rem', marginTop: '-4.5rem', objectPosition: 'top', objectFit: 'none',  borderRadius: '50px' }}  />
 I am an aspiring developer with a fervent enthusiasm for acquiring comprehensive knowledge in both web development and software development. My deep-seated passion lies in the realm of technology, and I eagerly embrace the challenge of perpetually evolving as a dedicated student within the expansive field of Information Technology.
       </motion.p>
 

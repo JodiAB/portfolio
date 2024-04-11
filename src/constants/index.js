@@ -113,22 +113,17 @@ const technologies = [
 ];
 
 const education = [
-  {
-    title: "De Kuilen High School",
-    company_name: "2012 - 2016",
-    icon: school,
-    iconBg: "#383E56",
-    date: "December 2017 - January 2019",
-    points: [
-      "English",
-      "Afrikaans",
-      "Mathematics Lite",
-      "Geography",
-      "History",
-      "Biography"
-
-    ],
-  }, 
+   {
+      title: "Life Choices academy",
+      company_name: "2023-2024",
+      date: "certification of completion",
+      icon: life,
+      iconBg: "#E6DEDD",
+      points: [
+          "I possess a robust skill set in web development technologies, including JavaScript, HTML, CSS, MySQL, Vue.js, Node.js, and Git. With proficiency in these languages and frameworks, I have demonstrated my ability to create dynamic and responsive web applications. My expertise extends from front-end development with HTML, CSS, and JavaScript to back-end development using Node.js and MySQL for database management. Additionally, I am adept at version control and collaboration with Git. These skills collectively enable me to contribute effectively to projects and deliver high-quality results in the realm of web development.",
+          
+        ],
+      },
   {
     title: "Cape Peninsula University of Technology",
     company_name: "2017-2021",
@@ -146,24 +141,53 @@ const education = [
     ],
   },
 
-  {
-    title: "Life Choices",
-    company_name: "2023-2024",
-    icon: life,
-    iconBg: "#E6DEDD",
-    points: [
-      "Javascript",
-      "HTML",
-      "CSS",
-      "MySQL",
-      "Vue.js",
-      "Node", 
-      "Git"
-    ],
-  },
+ 
+      {
+        title: "De Kuilen High School",
+        company_name: "2012 - 2016",
+        icon: school,
+        iconBg: "#383E56",
+        date: "December 2017 - January 2019",
+        points: [
+          "English",
+          "Afrikaans",
+          "Mathematics Lite",
+          "Geography",
+          "History",
+          "Biography"
+    
+        ],
+      }, 
 ];
 
 const experiences = [
+   {
+    title: "Internship",
+    company_name: "Life Choices Studio",
+    icon: life,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - current",
+    points: [
+      "Im presently attending Life Choices Studio, where im working on expanding my knowledge and improving my abilities in several different programming languages. This oppertunity allows me to upskill and diversify my expertise in the tech field.",
+    ],
+    // reasons: "Reasons for leaving: Curretly employed by Life Choices Studio"
+  },
+ 
+  {
+    title: "Support Engineer",
+    company_name: "Securicom",
+    icon: Securicom,
+    iconBg: "#E6DEDD",
+    date: "Febuary 2022 - March 2023",
+    points: [
+      "Investigate mail issues",
+      "Identifying and blocking malicious emails such as phishing mails and spam mails• Identifying and blocking malicious emails.",
+      "Assisting and solving customer inquiries such as adding users to requested containers",
+      "Monitoring of mail systems and portals",
+      "Answering the phone and assigning tickets to different level engineers"
+    ],
+    // reasons: "Reasons for leaving: NDA"
+  },
   {
     title: "Junior Network Technician Volunteer",
     company_name: "Cape Peninsula University of Technology: CPUT",
@@ -179,21 +203,10 @@ const experiences = [
       "Gained hands-on experience in network troubleshooting, equipment maintenance, and network administration."
 
     ],
+    // reasons: "Reasons for leaving: I had to go study as it was a new semester"
   }, 
-  {
-    title: "Support Engineer",
-    company_name: "Securicom",
-    icon: Securicom,
-    iconBg: "#E6DEDD",
-    date: "Febuary 2022 - March 2023",
-    points: [
-      "Investigate mail issues",
-      "Identifying and blocking malicious emails such as phishing mails and spam mails• Identifying and blocking malicious emails.",
-      "Assisting and solving customer inquiries such as adding users to requested containers",
-      "Monitoring of mail systems and portals",
-      "Answering the phone and assigning tickets to different level engineers"
-    ],
-  },
+
+ 
 ];
 
 
@@ -269,6 +282,7 @@ const projects = [
     ],
     image: "https://iili.io/J74tsu1.md.png",
     source_code_link: "https://github.com/JodiAB/NikeLanding",
+    source_code_linkk: "https://legendary-mandazi-81f8b0.netlify.app",
   },
   {
     name: "RedStore Eccommerce",
@@ -289,6 +303,7 @@ const projects = [
     ],
     image: "https://iili.io/J7Dvx14.md.png",
     source_code_link: "https://github.com/JodiAB/E-commerce",
+    source_code_linkk: "https://cheerful-mandazi-d973d6.netlify.app",
   },
   {
     name: "Quiz Game",
@@ -310,6 +325,7 @@ const projects = [
     ],
     image: "https://iili.io/J7DvRp9.md.png",
     source_code_link: "hhttps://github.com/JodiAB/quiz",
+    source_code_linkk: "https://tourmaline-gumdrop-27b0aa.netlify.app",
   },
 ];
 
