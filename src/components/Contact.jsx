@@ -64,10 +64,14 @@ const Contact = () => {
       );
   };
 
+  const handleDownloadCV = () => {
+    // Change the link to your CV's path
+    const CVPath = "/src/assets/Jodi-Abrahams-CV.pdf";
+    window.open(CVPath, "_blank");
+  };
+
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -78,6 +82,8 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
+          action="https://formspree.io/f/xeqbvwyd"
+          method="POST"
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
@@ -114,12 +120,23 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex justify-between"> 
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+
+          
+            <button
+              type='button'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md ml-32' 
+              onClick={handleDownloadCV}
+            >
+              Download CV
+            </button>
+          </div>
         </form>
       </motion.div>
 

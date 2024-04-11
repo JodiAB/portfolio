@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-Im a skilled web developer with expertise in TypeScript and JavaScript. With a strong command of these programming languages, I can create engaging and dynamic web applications. I possess extensive experience in frameworks like React, Node.js, and Three.js, enabling me to develop scalable and interactive solutions. Additionally, I hold an A+ certification, demonstrating my exceptional proficiency in computer hardware and software troubleshooting. My commitment to staying current with industry trends ensures I deliver exceptional results in web development
+I am an aspiring developer with a fervent enthusiasm for acquiring comprehensive knowledge in both web development and software development. My deep-seated passion lies in the realm of technology, and I eagerly embrace the challenge of perpetually evolving as a dedicated student within the expansive field of Information Technology.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
